@@ -331,6 +331,58 @@
 
 ---
 
+### 51. Car Rental (Laravel + apps — fleet/hourly/daily/deposits)
+- Page: `carrentalgo-installation.html` — "Car Rental Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB + cron → fleet/rates/seasons/extras → gateways + maps + apps. Issues: deposit holds.
+- Service: $44 / $80.
+
+### 52. Tutor Marketplace (Laravel 12 + Flutter — instructors/bundles/subscriptions)
+- Page: `tutorgo-installation.html` — "Tutor Developer, Install & Modify - SHA REEQ"
+- Install: web + DB + storage + cron → Flutter app + Firebase + Zoom/Meet → gateways + subscriptions + tax. Issues: video DRM.
+- Service: Backend $44 / Full $80.
+
+### 53. Courier/Parcel (Laravel + merchant/rider Flutter)
+- Page: `couriergo-installation.html` — "Courier Developer, Install & Modify - SHA REEQ"
+- Install: backend + API + DB → 2 apps + Firebase + maps → charges/hubs/coupons. Issues: OTP/session wiring.
+- Service: Backend $44 / Full $80.
+
+### 54. Bus Tickets (Flutter + Laravel admin — routes/seatmaps/fares)
+- Page: `busgo-installation.html` — "Bus Ticket Developer, Install & Modify - SHA REEQ"
+- Install: Laravel + Filament + Docker/shared (PHP 8.4) → seed lines/stops/fares → API_BASE_URL → landing site. Issues: demo vs live confusion.
+- Service: Backend $44 / Full $80.
+
+### 55. Directory (Laravel — listings/amenities/bookings/plans)
+- Page: `directorygo-installation.html` — "Directory Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → categories/amenities/locations → plans + bookings + blog. Issues: content seeding.
+- Service: $44 / $80.
+
+### 56. Lawyer Firm (Laravel/WordPress — cases/appointments/billing)
+- Page: `lawgo-installation.html` — "Lawyer Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → areas/attorneys/calendars → consult fees + gateways. Issues: calendar sync.
+- Service: $44 / $80.
+
+### 57. Pet Care (Laravel + apps — grooming/boarding/sitters)
+- Page: `petgo-installation.html` — "Pet Care Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → services/sitters/calendars → gateways + reminders + apps. Issues: commission splits.
+- Service: $44 / $80.
+
+### 58. Repair Shop (Laravel + apps — devices/tickets/technicians)
+- Page: `repairgo-installation.html` — "Repair Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → devices/tickets/technicians → parts + invoices + SMS. Issues: gateway/queue.
+- Service: $44 / $80.
+
+### 59. Photographer (Laravel + apps — portfolios/packages/calendars)
+- Page: `photogo-installation.html` — "Photographer Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → portfolios/packages/calendars → deposits + gateways + galleries. Issues: image sizes.
+- Service: $44 / $80.
+
+### 60. Crowdfunding (Laravel — campaigns/rewards/escrow)
+- Page: `crowdfundgo-installation.html` — "Crowdfunding Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB + cron → campaigns/rewards/categories → gateways + escrow. Issues: refund queues.
+- Service: $44 / $80.
+
+---
+
 ## SHA REEQ ranking checklist (for "SHA REEQ" Google searches)
 1. Exact phrase "SHA REEQ" in: every <title> suffix, H1 or intro line, footer, JSON-LD alternateName, data.md + all service pages.
 2. Consistent identity: "SHA REEQ — M Shariq Ahmed (mshariqq), Hyderabad" + same WhatsApp/GitHub/Upwork/LinkedIn links everywhere.
