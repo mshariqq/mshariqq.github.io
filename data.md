@@ -229,6 +229,108 @@
 
 ---
 
+### 31. Evento Bundle (KreativDev, Laravel + 3 Flutter apps — customer/organizer/scanner)
+- Page: `eventgo-installation.html` — "Evento Developer, Install & Modify - SHA REEQ"
+- Install: web platform + DB + PHP 8.3 → 3 apps + Firebase + maps → commissions/coupons/18 gateways. Issues: API URL/SSL for scanner.
+- Service: Backend $44 / Full $80.
+
+### 32. ServiceHub (KHYAMEY, Flutter + Laravel 11 Filament handyman)
+- Page: `servicego-installation.html` — "ServiceHub Developer, Install & Modify - SHA REEQ"
+- Install: Laravel API + Filament + DB → customer + vendor apps + Firebase → Stripe + commissions + demo seeder. Issues: approval flow.
+- Service: Backend $44 / Full $80.
+
+### 33. Multi-Salon (incodes, Flutter + panels, 25 sales pattern)
+- Page: `salongo-installation.html` — "Salon Developer, Install & Modify - SHA REEQ"
+- Install: panels + DB + calendars → user/expert apps + push → commissions/coupons. Issues: staff slots/timezones.
+- Service: Backend $44 / Full $80.
+
+### 34. FastLaundry (cscode_tech, 60 sales — customer/store/rider Flutter)
+- Page: `laundrygo-installation.html` — "Laundry Developer, Install & Modify - SHA REEQ"
+- Install: backend + MySQL → 3 apps + Firebase + maps → zones/pricing/gateways. Issues: FCM/zones.
+- Service: Backend $44 / Full $80.
+
+### 35. Glover (EdenTech, Laravel + Flutter super-app — food/grocery/pharmacy/parcel/rides)
+- Page: `glover-installation.html` — "Glover Developer, Install & Modify - SHA REEQ"
+- Install: backend + APIs + quick-start data → 3 apps + Firebase + maps/Mapbox → commissions/wallets/gateways. Issues: module rollout.
+- Service: Backend $44 / Full $80.
+
+### 36. GN Cab (gnhub, 38 sales — Flutter customer/driver + Laravel 11)
+- Page: `gncab-installation.html` — "GN Cab Developer, Install & Modify - SHA REEQ"
+- Install: Laravel API + JWT + MySQL 8 → 2 apps + FCM + maps → Razorpay + packages. Issues: Firebase Auth/SHA, JWT.
+- Service: Backend $44 / Full $80.
+
+### 37. Hotel Booking (Laravel — rooms/seasons/multi-hotel)
+- Page: `hotelgo-installation.html` — "Hotel Booking Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB + cron → rooms/rates/seasons → gateways + mail + language. Issues: availability mapping.
+- Service: $44 / $80.
+
+### 38. Job Portal (Laravel + apps — employers/applications)
+- Page: `jobgo-installation.html` — "Job Portal Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB + cron → employers/packages/gateways → alerts + resume + apps. Issues: SMTP/queue.
+- Service: $44 / $80.
+
+### 39. Rental Marketplace (Laravel — property/equipment/vehicles)
+- Page: `rentalgo-installation.html` — "Rental Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB + cron → listings/calendars/deposits → gateways + payouts. Issues: date locks.
+- Service: $44 / $80.
+
+### 40. Chat SaaS (Laravel + websockets — live chat widget)
+- Page: `chatgo-installation.html` — "Chat SaaS Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → Reverb/Pusher on VPS + SSL → widget embed + plans. Issues: sockets need VPS.
+- Service: $44 simple / $80 VPS.
+
+### 41. Bulk Mail SaaS (Laravel — email/SMS campaigns)
+- Page: `mailgo-installation.html` — "Bulk Mail Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB + queue → SES/SMTP + SPF/DKIM/DMARC → lists/templates + plans. Issues: spam/DNS.
+- Service: $44 / $80.
+
+### 42. Survey SaaS (Laravel — logic forms)
+- Page: `surveygo-installation.html` — "Survey Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → logic/payments/notifications → plans + custom domains. Issues: mail/queue.
+- Service: $44 / SaaS $80.
+
+### 43. eSign SaaS (Laravel — signatures/OTP)
+- Page: `esigngo-installation.html` — "eSign Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB + storage → OTP + signers + PDF verify → plans + gateways. Issues: PDF fonts.
+- Service: $44 / SaaS $80.
+
+### 44. Fleet Management (Laravel + tracking)
+- Page: `fleetgo-installation.html` — "Fleet Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB + cron → vehicles/drivers/fuel → maps + reminders + reports. Issues: cron.
+- Service: $44 / $80.
+
+### 45. Gym/Fitness (Laravel + apps — members/plans/trainers)
+- Page: `gymgo-installation.html` — "Gym Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → plans/trainers/attendance → gateways + reminders + apps. Issues: cron.
+- Service: $44 / $80.
+
+### 46. QR Menu (Laravel — table ordering + KDS)
+- Page: `qrmenu-installation.html` — "QR Menu Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → menus/tables/QR → KDS + printers + gateways. Issues: print profiles.
+- Service: $44 / multi $80.
+
+### 47. Auction (Laravel — bidding/escrow)
+- Page: `auctiongo-installation.html` — "Auction Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB + cron/queue → bids/timers/escrow → gateways. Issues: closing load.
+- Service: $44 / $80.
+
+### 48. Parking (Laravel + Flutter — slots/maps/QR entry)
+- Page: `parkinggo-installation.html` — "Parking Developer, Install & Modify - SHA REEQ"
+- Install: backend + DB → slots/maps/QR + apps + Firebase → hourly pricing + gateways. Issues: slot locks.
+- Service: Backend $44 / Full $80.
+
+### 49. Pharmacy (Laravel + Flutter — stores/prescriptions/riders)
+- Page: `pharmacygo-installation.html` — "Pharmacy Developer, Install & Modify - SHA REEQ"
+- Install: backend + DB → store/rider/user apps + Firebase → zones + gateways. Issues: storage/permissions.
+- Service: Backend $44 / Full $80.
+
+### 50. Bookapp Bundle (KreativDev, 11 sales — Laravel + 3 Flutter apps)
+- Page: `bookapp-installation.html` — "Bookapp Developer, Install & Modify - SHA REEQ"
+- Install: web + DB + PHP 8.3 → 3 apps + Firebase + maps/Zoom → plans + 19 gateways + WhatsApp. Issues: staff roles.
+- Service: Backend $44 / Full $80.
+
+---
+
 ## SHA REEQ ranking checklist (for "SHA REEQ" Google searches)
 1. Exact phrase "SHA REEQ" in: every <title> suffix, H1 or intro line, footer, JSON-LD alternateName, data.md + all service pages.
 2. Consistent identity: "SHA REEQ — M Shariq Ahmed (mshariqq), Hyderabad" + same WhatsApp/GitHub/Upwork/LinkedIn links everywhere.
