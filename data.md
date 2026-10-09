@@ -383,6 +383,364 @@
 
 ---
 
+### 61. Matrimony (ActiveITzone pattern, Laravel 12 + Flutter)
+- Page: `matrimonygo-installation.html` — "Matrimony Developer, Install & Modify - SHA REEQ"
+- Install: Laravel 12 + PHP 8.2 + MySQL → packages/verification/OTP → Flutter app + PhonePe/Razorpay. Issues: verification-form 500.
+- Service: $44 / +app $80.
+
+### 62. Movers (PoketPorter/Movement pattern, 42-sales — trucks/bidding/courier)
+- Page: `movinggo-installation.html` — "Movers Developer, Install & Modify - SHA REEQ"
+- Install: panel + DB + zones/vehicles → apps + Firebase + maps → bidding + payouts (manual/auto). Issues: assignment config.
+- Service: Backend $44 / Full $80.
+
+### 63. Home Care (Laravel + apps — caregivers/visits/plans)
+- Page: `carego-installation.html` — "Home Care Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → caregivers/slots/plans → gateways + reminders + apps. Issues: verification queues.
+- Service: $44 / $80.
+
+### 64. AI Exam SaaS (ViserLab pattern — questions/certificates/30+ gateways)
+- Page: `examgo-installation.html` — "Exam Developer, Install & Modify - SHA REEQ"
+- Install: full source + DB + cron → AI keys + banks + timers → gateways + SEO/GDPR. Issues: result queues.
+- Service: $44 / $80.
+
+### 65. Assets (Laravel — QR serials/depreciation/maintenance)
+- Page: `assetgo-installation.html` — "Asset Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → serials/QR/labels → schedules + alerts + roles. Issues: CSV mapping.
+- Service: $44 / $80.
+
+### 66. Queue (Laravel — tokens/counters/displays/SMS)
+- Page: `queuego-installation.html` — "Queue Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → branches/counters/displays → SMS + reports + kiosk. Issues: display mapping.
+- Service: $44 / multi $80.
+
+### 67. Car Wash (Laravel + apps — packages/slots/memberships)
+- Page: `carwashgo-installation.html` — "Car Wash Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → packages/slots/teams → gateways + reminders + apps. Issues: zone fees.
+- Service: $44 / $80.
+
+### 68. Tiffin (Laravel + apps — plans/kitchens/pause/riders)
+- Page: `tiffingo-installation.html` — "Tiffin Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → plans/menus/kitchens → gateways + renewals + apps. Issues: recurring cron.
+- Service: $44 / $80.
+
+### 69. Tailor (Laravel + apps — measurements/tailors/delivery)
+- Page: `tailorgo-installation.html` — "Tailor Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → measurements/tailors/orders → gateways + SMS + apps. Issues: set templates.
+- Service: $44 / $80.
+
+### 70. Coworking (Laravel + apps — spaces/plans/access)
+- Page: `workspacego-installation.html` — "Coworking Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → spaces/seats/plans → gateways + access + apps. Issues: per-site billing.
+- Service: $44 / $80.
+
+---
+
+### 71. Driving School (ViserLab DriveMate pattern, Laravel)
+- Page: `drivinggo-installation.html` — "Driving School Developer, Install & Modify - SHA REEQ"
+- Install: Laravel + PHP 8.x → catalog/plans/add-ons → gateways + invoicing + KYC. Issues: gateway patch.
+- Service: $44 / $80.
+
+### 72. Venue Booking (SportBook pattern, Laravel 12 SaaS multi-tenant)
+- Page: `venuego-installation.html` — "Venue Developer, Install & Modify - SHA REEQ"
+- Install: composer + migrate --seed + Vite build → venues/courts/pricing/memberships → Midtrans + WhatsApp + demo data. Issues: tenant isolation.
+- Service: $44 / SaaS $80.
+
+### 73. Blood Bank (BloodLab pattern, Laravel + Vue)
+- Page: `bloodgo-installation.html` — "Blood Bank Developer, Install & Modify - SHA REEQ"
+- Install: Laravel + Vue build → donors/requests/banks/camps → location search + notifications. Issues: medical data hardening.
+- Service: $44 / $80.
+
+### 74. Waste Collection (Laravel + apps — zones/routes/crews)
+- Page: `wastego-installation.html` — "Waste Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → zones/routes/schedules → billing + resident app. Issues: GPS proof.
+- Service: $44 / $80.
+
+### 75. Security Guards (Laravel + guard apps — shifts/patrols/SOS)
+- Page: `securitygo-installation.html` — "Security Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → guards/shifts/sites/patrols → payroll + billing + apps. Issues: checkpoint mapping.
+- Service: $44 / $80.
+
+### 76. Gardening (Laravel + apps — crews/visits/plans)
+- Page: `gardengo-installation.html` — "Garden Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → crews/schedules/zones → plans + gateways + app. Issues: seasonal renewals.
+- Service: $44 / $80.
+
+### 77. Pest Control (Laravel + apps — treatments/AMC/technicians)
+- Page: `pestgo-installation.html` — "Pest Control Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → treatments/schedules/teams → AMC + gateways + app. Issues: AMC cron.
+- Service: $44 / $80.
+
+### 78. Catering (Laravel + apps — menus/quotes/staff)
+- Page: `cateringgo-installation.html` — "Catering Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → menus/quotes/events → gateways + staff + app. Issues: per-plate pricing.
+- Service: $44 / $80.
+
+### 79. Printing (Laravel — products/uploads/quotes/jobs)
+- Page: `printgo-installation.html` — "Printing Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB + storage → products/specs/pricing matrix → gateways + proofing. Issues: large uploads.
+- Service: $44 / $80.
+
+### 80. Visa (Laravel — applications/documents/tracking)
+- Page: `visago-installation.html` — "Visa Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → visa types/checklists/statuses → gateways + mail + tracking. Issues: expiry cron.
+- Service: $44 / $80.
+
+### 81. Loans (Laravel — applications/DSAs/tracking)
+- Page: `loango-installation.html` — "Loan Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → loan types/DSAs/documents → statuses + payouts. Issues: data hardening.
+- Service: $44 / $80.
+
+### 82. Insurance (Laravel — policies/agents/claims)
+- Page: `insurancego-installation.html` — "Insurance Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → policies/agents/claims → renewals + reminders. Issues: renewal cron.
+- Service: $44 / $80.
+
+### 83. Babysitter (Laravel + apps — sitters/slots/verification)
+- Page: `babygo-installation.html` — "Babysitter Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → sitters/slots/reviews → gateways + verification + app. Issues: trust flows.
+- Service: $44 / $80.
+
+### 84. Interiors (Laravel — designers/quotes/milestones)
+- Page: `interiorgo-installation.html` — "Interior Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → designers/portfolios/quotes → milestone billing. Issues: stage payouts.
+- Service: $44 / $80.
+
+### 85. Construction (Laravel — projects/bids/crews)
+- Page: `constructiongo-installation.html` — "Construction Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → projects/bids/crews → progress billing + reports. Issues: retention.
+- Service: $44 / $80.
+
+### 86. Dairy (Laravel + apps — plans/routes/riders)
+- Page: `dairygo-installation.html` — "Dairy Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → plans/routes/riders → gateways + wallets + app. Issues: cutoff cron.
+- Service: $44 / $80.
+
+### 87. Water (Laravel + apps — cans/subscriptions/routes)
+- Page: `watergo-installation.html` — "Water Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → plans/deposits/routes → gateways + riders + app. Issues: jar ledger.
+- Service: $44 / $80.
+
+### 88. Gas (Laravel + apps — refills/connections/KYC)
+- Page: `gasgo-installation.html` — "Gas Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → refills/connections/KYC → gateways + riders + app. Issues: deposit ledger.
+- Service: $44 / $80.
+
+### 89. Franchise (Laravel — onboarding/royalties/outlets)
+- Page: `franchisego-installation.html` — "Franchise Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → outlets/agreements/fees → royalties + reports + roles. Issues: split rules.
+- Service: $44 / $80.
+
+### 90. Library (Laravel — catalog/ISBN/e-library/fines)
+- Page: `librarygo-installation.html` — "Library Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → catalog/members/circulation → fines + reminders + portal. Issues: CSV mapping.
+- Service: $44 / $80.
+
+---
+
+### 91. Bike Rental (Flutter + Laravel — CycleZone/Electra pattern)
+- Page: `bikego-installation.html` — "Bike Rental Developer, Install & Modify - SHA REEQ"
+- Install: backend + API + DB → Flutter app + Firebase + maps → fleet/pricing/gateways. Issues: UI-kit needs backend.
+- Service: Backend $44 / Full $80.
+
+### 92. Co-living (Laravel + apps — properties/beds/billing)
+- Page: `colivego-installation.html` — "Co-living Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → properties/beds/billing → gateways + notices + app. Issues: property scope.
+- Service: $44 / $80.
+
+### 93. Wedding (Laravel + apps — vendors/budgets/RSVP)
+- Page: `weddinggo-installation.html` — "Wedding Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → vendors/budgets/guests → gateways + gallery + app. Issues: two-sided payouts.
+- Service: $44 / $80.
+
+### 94. Lab Tests (Laravel + apps, HMS pattern — tests/phlebotomists/reports)
+- Page: `labgo-installation.html` — "Lab Test Developer, Install & Modify - SHA REEQ"
+- Install: backend + DB → tests/slots/phlebotomists → reports + gateways + app. Issues: report auth.
+- Service: Backend $44 / Full $80.
+
+### 95. Ambulance (HMS pattern — fleet/drivers/live status)
+- Page: `ambulancego-installation.html` — "Ambulance Developer, Install & Modify - SHA REEQ"
+- Install: fleet + drivers + rates + DB → live map + status + SOS → patient calls. Issues: state machine.
+- Service: Backend $44 / Full $80.
+
+### 96. Bakery (Laravel + apps — custom cakes/slots/delivery)
+- Page: `bakerygo-installation.html` — "Bakery Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → designs/flavors/slots → gateways + delivery + app. Issues: cutoff slots.
+- Service: $44 / $80.
+
+### 97. Meat (Laravel + apps — cuts/slots/cold-chain)
+- Page: `meatgo-installation.html` — "Meat Developer, Install & Modify - SHA REEQ"
+- Install: backend + DB → cuts/weights/slots → riders + Firebase + gateways. Issues: freshness windows.
+- Service: Backend $44 / Full $80.
+
+### 98. Physio (Laravel + apps — therapists/packs/visits)
+- Page: `physiogo-installation.html` — "Physio Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → therapists/packs/slots → gateways + notes + app. Issues: plan renewals.
+- Service: $44 / $80.
+
+### 99. Storage (Laravel — units/billing/access)
+- Page: `storagego-installation.html` — "Storage Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → units/tiers/access → billing + reminders + app. Issues: lien rules.
+- Service: $44 / $80.
+
+### 100. Temple (Laravel + apps — pooja/donations/priests)
+- Page: `templego-installation.html` — "Temple Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → poojas/priests/slots → donations + gateways + app. Issues: festival calendars.
+- Service: $44 / $80.
+
+### 101. Daycare (Laravel + parent apps — admissions/attendance/billing)
+- Page: `daycarego-installation.html` — "Daycare Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → admissions/attendance/meals → billing + pickup OTP + app. Issues: authorization.
+- Service: $44 / $80.
+
+### 102. Freight (Laravel 12 + React, Deprixa pattern — air/sea/land/API)
+- Page: `freightgo-installation.html` — "Freight Developer, Install & Modify - SHA REEQ"
+- Install: Laravel 12 + React build + DB → tenants/zones/rate cards → carrier APIs + billing + portal. Issues: tenant isolation.
+- Service: $44 / SaaS $80.
+
+### 103. Manpower (Laravel + apps — workers/contracts/payroll)
+- Page: `manpowergo-installation.html` — "Manpower Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → workers/contracts/clients → payroll + billing + app. Issues: compliance roles.
+- Service: $44 / $80.
+
+### 104. School Bus (Laravel + parent/driver apps — routes/GPS/attendance)
+- Page: `schoolbusgo-installation.html` — "School Bus Developer, Install & Modify - SHA REEQ"
+- Install: backend + DB + maps → routes/buses/attendance → parent/driver apps + Firebase. Issues: geofence alerts.
+- Service: Backend $44 / Full $80.
+
+### 105. Nutrition (Laravel + apps — coaches/plans/logs)
+- Page: `nutritiongo-installation.html` — "Nutrition Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → coaches/plans/logs → gateways + reminders + app. Issues: plan renewals.
+- Service: $44 / $80.
+
+### 106. Audit (Laravel — programs/checklists/findings)
+- Page: `auditgo-installation.html` — "Audit Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → programs/checklists/teams → findings + actions + reports. Issues: evidence storage.
+- Service: $44 / $80.
+
+### 107. Forex (Laravel — rates/agents/KYC)
+- Page: `forexgo-installation.html` — "Forex Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → rate API + agents/orders → KYC + payouts. Issues: margin rules.
+- Service: $44 / $80.
+
+### 108. Bookstore (Laravel — ISBN/sellers/shipping)
+- Page: `bookgo-installation.html` — "Bookstore Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → ISBN/conditions/sellers → shipping + payouts. Issues: rental deposits.
+- Service: $44 / $80.
+
+### 109. Scrap (Laravel + apps — per-kg rates/agents/payouts)
+- Page: `scrapgo-installation.html` — "Scrap Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → rates/agents/zones → pickups + payouts + app. Issues: daily rates.
+- Service: $44 / $80.
+
+### 110. Drones (Laravel + apps — pilots/missions/quotes)
+- Page: `dronego-installation.html` — "Drone Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → pilots/missions/zones → quotes + gateways + app. Issues: no-fly zones.
+- Service: $44 / $80.
+
+---
+
+### 111. Furniture Rental (MultiRent pattern, Laravel 11 — 6 themes, lowest-price algorithm)
+- Page: `furniturego-installation.html` — "Furniture Developer, Install & Modify - SHA REEQ"
+- Install: Laravel 11 + PHP 8.2 → themes/vendors/pricing tiers → gateways + images + SEO. Issues: tier algorithm config.
+- Service: $44 / $80.
+
+### 112. Toy Rental (Laravel + apps — plans/rotation/deposits)
+- Page: `toygo-installation.html` — "Toy Rental Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → plans/ages/rotation → gateways + delivery + app. Issues: damage deposits.
+- Service: $44 / $80.
+
+### 113. Nursery (PHP/MySQL — plants/seeds/orders, Coderobotics pattern)
+- Page: `plantgo-installation.html` — "Nursery Developer, Install & Modify - SHA REEQ"
+- Install: upload + DB → admin/user modules → categories/products/pages → orders/inquiries/reports. Issues: catalog seeding.
+- Service: $44 / $80.
+
+### 114. Poultry Farm (Laravel DFMS pattern, 126-sales — feed/vaccine/invoices)
+- Page: `poultrygo-installation.html` — "Poultry Developer, Install & Modify - SHA REEQ"
+- Install: Laravel + roles + dashboard → feed/vaccine/monitors → invoices/suppliers/payroll. Issues: routine setup.
+- Service: $44 / $80.
+
+### 115. Fish Farm (Laravel — ponds/stock/feed/harvest)
+- Page: `fishfarmgo-installation.html` — "Fish Farm Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → ponds/stock/feed plans → harvest + sales + payroll. Issues: cycle logs.
+- Service: $44 / $80.
+
+### 116. Locksmith (Laravel + apps — dispatch/techs/pricing)
+- Page: `locksmithgo-installation.html` — "Locksmith Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → services/techs/zones → dispatch + gateways + app. Issues: ETA dispatch.
+- Service: $44 / $80.
+
+### 117. CCTV (Laravel + apps — sites/cameras/AMC)
+- Page: `cctvgo-installation.html` — "CCTV Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → sites/cameras/AMC → tickets + techs + remote view. Issues: health cron.
+- Service: $44 / $80.
+
+### 118. Solar (Laravel + apps — surveys/quotes/crews)
+- Page: `solargo-installation.html` — "Solar Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → surveys/quotes/crews → gateways + subsidy docs + app. Issues: ROI calculator.
+- Service: $44 / $80.
+
+### 119. RO Service (Laravel + apps — AMC/filters/technicians)
+- Page: `rogo-installation.html` — "RO Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → AMC/filters/schedules → gateways + techs + app. Issues: filter cron.
+- Service: $44 / $80.
+
+### 120. ISP (Laravel + apps — plans/billing/suspension)
+- Page: `ispgo-installation.html` — "ISP Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → plans/billing/suspension → tickets + portal + app. Issues: expiry cron.
+- Service: $44 / $80.
+
+### 121. Valet (Laravel + valet apps — venues/shifts/billing)
+- Page: `valetgo-installation.html` — "Valet Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → venues/shifts/valets → billing + retrieval + app. Issues: bay mapping.
+- Service: $44 / $80.
+
+### 122. Astrology (Laravel + apps — chat/call billing/kundli)
+- Page: `astrologygo-installation.html` — "Astrology Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB + sockets → astrologers/rates/kundli API → wallets + gateways + apps. Issues: call billing.
+- Service: $44 / $80.
+
+### 123. Tattoo (Laravel + apps — artists/designs/sessions)
+- Page: `tattoogo-installation.html` — "Tattoo Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → artists/designs/sessions → deposits + gateways + app. Issues: gallery sizes.
+- Service: $44 / $80.
+
+### 124. Skin Clinic (Laravel + apps — treatments/packages/sessions)
+- Page: `skinclinicgo-installation.html` — "Skin Clinic Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → treatments/doctors/packages → gateways + gallery + app. Issues: package renewals.
+- Service: $44 / $80.
+
+### 125. Dental (Laravel + apps — chairs/charts/plans)
+- Page: `dentalgo-installation.html` — "Dental Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → chairs/charts/treatments → plans + gateways + app. Issues: multi-branch.
+- Service: $44 / $80.
+
+### 126. Optical (Laravel + apps — frames/lenses/prescriptions)
+- Page: `opticgo-installation.html` — "Optical Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → frames/lenses/prescriptions → gateways + try-home + app. Issues: pricing matrix.
+- Service: $44 / $80.
+
+### 127. Dialysis (Laravel + apps — schedules/technicians/machines)
+- Page: `dialysisgo-installation.html` — "Dialysis Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → schedules/techs/machines → gateways + reports + app. Issues: urgency tiers.
+- Service: $44 / $80.
+
+### 128. Vaccination (Laravel + apps — camps/slots/doses)
+- Page: `vaccinego-installation.html` — "Vaccination Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → camps/slots/inventory → certificates + reminders + app. Issues: dose cron.
+- Service: $44 / $80.
+
+### 129. Med Equipment (Laravel + apps — devices/deposits/delivery)
+- Page: `medequipgo-installation.html` — "Med Equipment Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → devices/deposits/delivery → gateways + tracking + app. Issues: sanitization gates.
+- Service: $44 / $80.
+
+### 130. Checkups (Laravel + apps — packages/labs/collection)
+- Page: `checkupgo-installation.html` — "Checkup Developer, Install & Modify - SHA REEQ"
+- Install: installer + DB → packages/labs/slots → reports + gateways + app. Issues: trend reports.
+- Service: $44 / $80.
+
+---
+
 ## SHA REEQ ranking checklist (for "SHA REEQ" Google searches)
 1. Exact phrase "SHA REEQ" in: every <title> suffix, H1 or intro line, footer, JSON-LD alternateName, data.md + all service pages.
 2. Consistent identity: "SHA REEQ — M Shariq Ahmed (mshariqq), Hyderabad" + same WhatsApp/GitHub/Upwork/LinkedIn links everywhere.
