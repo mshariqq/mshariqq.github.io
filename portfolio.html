@@ -5,21 +5,21 @@
 <meta name="msvalidate.01" content="151D99F316BC98EF9742FD3A2576C57A" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SHA REEQ PORTFOLIO - Full-Stack Developer Portfolio</title>
-<meta name="description" content="SHA REEQ portfolio — full-stack developer in Hyderabad. 19+ live WordPress, Shopify, Laravel, PHP and CodeIgniter client projects, plus open-source builds.">
+<meta name="description" content="SHA REEQ portfolio — full-stack developer in Hyderabad. 19+ live WordPress, Shopify, Laravel, Next.js and React projects, plus open-source builds.">
 <meta name="author" content="SHA REEQ - M Shariq Ahmed">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#0A0A0A">
 <link rel="canonical" href="https://mshariqq.github.io/portfolio.html">
 <meta property="og:type" content="website">
 <meta property="og:title" content="SHA REEQ PORTFOLIO - Full-Stack Developer Portfolio">
-<meta property="og:description" content="SHA REEQ portfolio — 19+ live WordPress, Shopify, Laravel, PHP and CodeIgniter client projects by a full-stack developer in Hyderabad.">
+<meta property="og:description" content="SHA REEQ portfolio — 19+ live WordPress, Shopify, Laravel, Next.js and React projects by a full-stack developer in Hyderabad.">
 <meta property="og:url" content="https://mshariqq.github.io/portfolio.html">
 <meta property="og:image" content="https://mshariqq.github.io/images/dp.webp">
 <meta property="og:site_name" content="SHA REEQ">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="SHA REEQ PORTFOLIO - Full-Stack Developer Portfolio">
-<meta name="twitter:description" content="SHA REEQ portfolio — 19+ live WordPress, Shopify, Laravel, PHP and CodeIgniter client projects by a full-stack developer in Hyderabad.">
+<meta name="twitter:description" content="SHA REEQ portfolio — 19+ live WordPress, Shopify, Laravel, Next.js and React projects by a full-stack developer in Hyderabad.">
 <meta name="twitter:image" content="https://mshariqq.github.io/images/dp.webp">
 <link rel="icon" type="image/webp" href="images/ico.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -74,7 +74,7 @@ body{background:#0A0A0A;color:#fff;font-family:'Inter',sans-serif;overflow-x:hid
 </style>
 <meta name="keywords" content="SHA REEQ portfolio, full stack developer portfolio, M Shariq Ahmed portfolio, mshariqq portfolio, WordPress developer portfolio, Shopify developer portfolio, Laravel developer portfolio, Hyderabad web developer">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"CollectionPage","name":"SHA REEQ PORTFOLIO — Full-Stack Developer Portfolio","url":"https://mshariqq.github.io/portfolio.html","description":"SHA REEQ portfolio of 19+ live WordPress, Shopify, Laravel, PHP and CodeIgniter client projects by full-stack developer Muhammed Shariq Ahmed (mshariqq), Hyderabad.","about":{"@type":"Person","name":"SHA REEQ","alternateName":["M Shariq Ahmed","mshariqq"],"jobTitle":"Full-Stack Developer","url":"https://mshariqq.github.io/","address":{"@type":"PostalAddress","addressLocality":"Hyderabad","addressRegion":"Telangana","addressCountry":"IN"}}}
+{"@context":"https://schema.org","@type":"CollectionPage","name":"SHA REEQ PORTFOLIO — Full-Stack Developer Portfolio","url":"https://mshariqq.github.io/portfolio.html","description":"SHA REEQ portfolio of 19+ live WordPress, Shopify, Laravel, Next.js and React projects by full-stack developer Muhammed Shariq Ahmed (mshariqq), Hyderabad.","about":{"@type":"Person","name":"SHA REEQ","alternateName":["M Shariq Ahmed","mshariqq"],"jobTitle":"Full-Stack Developer","url":"https://mshariqq.github.io/","address":{"@type":"PostalAddress","addressLocality":"Hyderabad","addressRegion":"Telangana","addressCountry":"IN"}}}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SHA REEQ Home","item":"https://mshariqq.github.io/"},{"@type":"ListItem","position":2,"name":"Portfolio"}]}
@@ -114,6 +114,7 @@ body{background:#0A0A0A;color:#fff;font-family:'Inter',sans-serif;overflow-x:hid
 <button class="chip" data-filter="shopify">Shopify<span class="n" id="n-shopify"></span></button>
 <button class="chip" data-filter="laravel">Laravel<span class="n" id="n-laravel"></span></button>
 <button class="chip" data-filter="nextjs">Next.js<span class="n" id="n-nextjs"></span></button>
+<button class="chip" data-filter="react">React<span class="n" id="n-react"></span></button>
 <button class="chip" data-filter="php">PHP<span class="n" id="n-php"></span></button>
 <button class="chip" data-filter="codeigniter">CodeIgniter<span class="n" id="n-codeigniter"></span></button>
 <button class="chip" data-filter="codecanyon">Codecanyon<span class="n" id="n-codecanyon"></span></button>
@@ -356,6 +357,14 @@ const PROJECTS = [
     stack: "PHP · SMTP · Queue Batching",
     desc: "Sends bulk email the legitimate way — SMTP with throttling, attachments and time breaks, built to keep deliverability out of the spam folder.",
     url: "https://github.com/mshariqq/Bulk-Mail-Sender-SMTP", initials: "BM"
+  },
+  {
+    title: "FreeLMS — Free Online Courses",
+    type: "react", typeLabel: "React", openSource: true,
+    stack: "React · GitHub Pages · EdTech",
+    desc: "Free online learning platform with curated video courses, progress tracking and quizzes. Built in React and shipped as a fully static, zero-cost site on GitHub Pages.",
+    url: "https://freelms.github.io/",
+    shot: "https://freelms.github.io/", initials: "FL"
   }
 ];
 
@@ -365,11 +374,12 @@ const chips = document.querySelectorAll('.chip');
 
 function cardHTML(p, i) {
   const isRepo = p.url.indexOf('github.com') !== -1;
+  const isOpen = isRepo || p.openSource === true;
   const media = p.shot
     ? `<div class="ph"><span>${p.initials || 'SRQ'}</span></div>
        <img class="shot-img" src="https://s0.wp.com/mshots/v1/${encodeURIComponent(p.shot)}?w=900" alt="${p.title} — website built by SHA REEQ (mshariqq)" loading="lazy" onerror="this.onerror=null;this.style.display='none';">`
     : `<div class="ph"><span>${p.initials || 'SRQ'}</span></div>`;
-  const badge = isRepo
+  const badge = isOpen
     ? '<span class="badge">◆ open source</span>'
     : '<span class="badge badge-live">● live site</span>';
   const star = p.featured ? '<span class="star">★ featured</span>' : '';
