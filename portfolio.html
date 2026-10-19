@@ -4,21 +4,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SHA REEQ PORTFOLIO - Full-Stack Developer Portfolio</title>
-<meta name="description" content="SHA REEQ portfolio — full-stack developer in Hyderabad. 17+ live WordPress, Shopify, Laravel, PHP and CodeIgniter client projects, plus open-source builds.">
+<meta name="description" content="SHA REEQ portfolio — full-stack developer in Hyderabad. 19+ live WordPress, Shopify, Laravel, PHP and CodeIgniter client projects, plus open-source builds.">
 <meta name="author" content="SHA REEQ - M Shariq Ahmed">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#0A0A0A">
 <link rel="canonical" href="https://mshariqq.github.io/portfolio.html">
 <meta property="og:type" content="website">
 <meta property="og:title" content="SHA REEQ PORTFOLIO - Full-Stack Developer Portfolio">
-<meta property="og:description" content="SHA REEQ portfolio — 17+ live WordPress, Shopify, Laravel, PHP and CodeIgniter client projects by a full-stack developer in Hyderabad.">
+<meta property="og:description" content="SHA REEQ portfolio — 19+ live WordPress, Shopify, Laravel, PHP and CodeIgniter client projects by a full-stack developer in Hyderabad.">
 <meta property="og:url" content="https://mshariqq.github.io/portfolio.html">
 <meta property="og:image" content="https://mshariqq.github.io/images/dp.webp">
 <meta property="og:site_name" content="SHA REEQ">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="SHA REEQ PORTFOLIO - Full-Stack Developer Portfolio">
-<meta name="twitter:description" content="SHA REEQ portfolio — 17+ live WordPress, Shopify, Laravel, PHP and CodeIgniter client projects by a full-stack developer in Hyderabad.">
+<meta name="twitter:description" content="SHA REEQ portfolio — 19+ live WordPress, Shopify, Laravel, PHP and CodeIgniter client projects by a full-stack developer in Hyderabad.">
 <meta name="twitter:image" content="https://mshariqq.github.io/images/dp.webp">
 <link rel="icon" type="image/webp" href="images/ico.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,7 +73,7 @@ body{background:#0A0A0A;color:#fff;font-family:'Inter',sans-serif;overflow-x:hid
 </style>
 <meta name="keywords" content="SHA REEQ portfolio, full stack developer portfolio, M Shariq Ahmed portfolio, mshariqq portfolio, WordPress developer portfolio, Shopify developer portfolio, Laravel developer portfolio, Hyderabad web developer">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"CollectionPage","name":"SHA REEQ PORTFOLIO — Full-Stack Developer Portfolio","url":"https://mshariqq.github.io/portfolio.html","description":"SHA REEQ portfolio of 17+ live WordPress, Shopify, Laravel, PHP and CodeIgniter client projects by full-stack developer Muhammed Shariq Ahmed (mshariqq), Hyderabad.","about":{"@type":"Person","name":"SHA REEQ","alternateName":["M Shariq Ahmed","mshariqq"],"jobTitle":"Full-Stack Developer","url":"https://mshariqq.github.io/","address":{"@type":"PostalAddress","addressLocality":"Hyderabad","addressRegion":"Telangana","addressCountry":"IN"}}}
+{"@context":"https://schema.org","@type":"CollectionPage","name":"SHA REEQ PORTFOLIO — Full-Stack Developer Portfolio","url":"https://mshariqq.github.io/portfolio.html","description":"SHA REEQ portfolio of 19+ live WordPress, Shopify, Laravel, PHP and CodeIgniter client projects by full-stack developer Muhammed Shariq Ahmed (mshariqq), Hyderabad.","about":{"@type":"Person","name":"SHA REEQ","alternateName":["M Shariq Ahmed","mshariqq"],"jobTitle":"Full-Stack Developer","url":"https://mshariqq.github.io/","address":{"@type":"PostalAddress","addressLocality":"Hyderabad","addressRegion":"Telangana","addressCountry":"IN"}}}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SHA REEQ Home","item":"https://mshariqq.github.io/"},{"@type":"ListItem","position":2,"name":"Portfolio"}]}
@@ -112,6 +112,7 @@ body{background:#0A0A0A;color:#fff;font-family:'Inter',sans-serif;overflow-x:hid
 <button class="chip" data-filter="wordpress">WordPress<span class="n" id="n-wordpress"></span></button>
 <button class="chip" data-filter="shopify">Shopify<span class="n" id="n-shopify"></span></button>
 <button class="chip" data-filter="laravel">Laravel<span class="n" id="n-laravel"></span></button>
+<button class="chip" data-filter="nextjs">Next.js<span class="n" id="n-nextjs"></span></button>
 <button class="chip" data-filter="php">PHP<span class="n" id="n-php"></span></button>
 <button class="chip" data-filter="codeigniter">CodeIgniter<span class="n" id="n-codeigniter"></span></button>
 <button class="chip" data-filter="codecanyon">Codecanyon<span class="n" id="n-codecanyon"></span></button>
@@ -292,11 +293,19 @@ const PROJECTS = [
   },
   {
     title: "Brahmaputra Taxi Booking Platform",
-    type: "codecanyon", typeLabel: "Codecanyon", featured: true,
+    type: "laravel", typeLabel: "Laravel", featured: true, tags: ["codecanyon"],
     stack: "Laravel · Taxi Script · Driver App",
-    desc: "Uber-style ride booking ecosystem — customer booking, driver management, trip tracking and a full admin dashboard, deployed on a live travel brand.",
+    desc: "Uber-style ride booking ecosystem built on Laravel — customer booking, driver management, trip tracking and a full admin dashboard, deployed on a live travel brand.",
     url: "https://brahmaputrataxi.com/",
     shot: "https://brahmaputrataxi.com/", initials: "BT"
+  },
+  {
+    title: "eClassify Marketplace",
+    type: "laravel", typeLabel: "Laravel + Next.js", featured: true, tags: ["nextjs"],
+    stack: "Laravel · Next.js · Classifieds",
+    desc: "Classifieds marketplace for buying and selling across Pakistan. Laravel API backend paired with a fast Next.js frontend, with listings, categories and secure transactions.",
+    url: "https://signups.com.pk/",
+    shot: "https://signups.com.pk/", initials: "EC"
   },
   {
     title: "KhanCRM — Laravel CRM + ERP",
@@ -382,10 +391,14 @@ function cardHTML(p, i) {
   </article>`;
 }
 
+function matches(p, filter) {
+  return p.type === filter || (p.tags && p.tags.indexOf(filter) !== -1);
+}
+
 function render(filter) {
   let list = PROJECTS;
   if (filter === 'featured') list = PROJECTS.filter(p => p.featured);
-  else if (filter !== 'all') list = PROJECTS.filter(p => p.type === filter);
+  else if (filter !== 'all') list = PROJECTS.filter(p => matches(p, filter));
   grid.innerHTML = list.map(cardHTML).join('');
   empty.classList.toggle('show', list.length === 0);
 }
@@ -393,6 +406,7 @@ function render(filter) {
 function counts() {
   const c = { all: PROJECTS.length, featured: PROJECTS.filter(p => p.featured).length };
   PROJECTS.forEach(p => { c[p.type] = (c[p.type] || 0) + 1; });
+  PROJECTS.forEach(p => (p.tags || []).forEach(t => { c[t] = (c[t] || 0) + 1; }));
   Object.keys(c).forEach(k => {
     const el = document.getElementById('n-' + k);
     if (el) el.textContent = c[k];
