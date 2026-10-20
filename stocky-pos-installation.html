@@ -4,14 +4,18 @@
 <meta charset="UTF-8">
 <meta name="msvalidate.01" content="151D99F316BC98EF9742FD3A2576C57A" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stocky POS Developer, Install & Modify - SHA REEQ</title>
-<meta name="description" content="SHA REEQ — Stocky POS inventory & ERP + WooCommerce sync setup. $44 simple / $80 complex + 30 days support.">
+<title>Stocky POS Installation Service & Developer - SHA REEQ</title>
+<meta name="description" content="Stocky POS installation service by SHA REEQ. Laravel + Vue POS setup: offline mode, barcode, thermal printing, warehouses, WooCommerce sync. From $44.">
+<meta name="keywords" content="stocky pos installation service, stocky developer, laravel pos setup, offline pos, woocommerce pos sync">
 <meta name="author" content="SHA REEQ - M Shariq Ahmed">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#0A0A0A">
 <link rel="canonical" href="https://mshariqq.github.io/stocky-pos-installation.html">
-<meta property="og:title" content="Stocky POS Developer, Install & Modify - SHA REEQ">
-<meta property="og:description" content="Stocky POS by SHA REEQ. $44/$80 + support.">
+<meta property="og:title" content="Stocky POS Installation Service & Developer - SHA REEQ">
+<meta property="og:description" content="Stocky POS installation service by SHA REEQ. Laravel + Vue POS setup: offline mode, barcode, thermal printing, warehouses, WooCommerce sync. From $44.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Stocky POS Installation Service & Developer - SHA REEQ">
+<meta name="twitter:description" content="Stocky POS installation service by SHA REEQ. Laravel + Vue POS setup: offline mode, barcode, thermal printing, warehouses, WooCommerce sync. From $44.">
 <meta property="og:url" content="https://mshariqq.github.io/stocky-pos-installation.html">
 <meta property="og:image" content="https://mshariqq.github.io/images/dp.webp">
 <meta property="og:type" content="website">
@@ -49,7 +53,7 @@ body{background:#0A0A0A;color:#fff;font-family:'Inter',sans-serif}
 {"@context":"https://schema.org","@type":"Service","name":"Stocky POS Developer, Install & Modify - SHA REEQ","provider":{"@type":"Person","name":"SHA REEQ","alternateName":["M Shariq Ahmed","mshariqq"],"url":"https://mshariqq.github.io/"},"areaServed":"Worldwide","description":"Stocky POS install + WooCommerce sync by SHA REEQ. $44/$80 + 30 days support.","offers":[{"@type":"Offer","name":"Stocky Simple","price":"44","priceCurrency":"USD"},{"@type":"Offer","name":"Stocky Complex","price":"80","priceCurrency":"USD"}]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you sync Stocky with WooCommerce?","acceptedAnswer":{"@type":"Answer","text":"Yes — Complex $80 covers WooCommerce API keys, product/stock sync, cron and duplicate cleanup."}},{"@type":"Question","name":"Who is SHA REEQ?","acceptedAnswer":{"@type":"Answer","text":"SHA REEQ is M Shariq Ahmed (mshariqq) — Hyderabad, 10+ years."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you sync Stocky with WooCommerce?","acceptedAnswer":{"@type":"Answer","text":"Yes — Complex $80 covers WooCommerce API keys, product/stock sync, cron and duplicate cleanup."}},{"@type":"Question","name":"Who is SHA REEQ?","acceptedAnswer":{"@type":"Answer","text":"SHA REEQ is M Shariq Ahmed (mshariqq) — Hyderabad, 10+ years."}},{"@type": "Question", "name": "Does offline mode really work?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the POS keeps selling offline and syncs when the connection returns. I still test recovery carefully, because how you close the till offline affects reconciliation."}}, {"@type": "Question", "name": "Is WooCommerce sync an add-on?", "acceptedAnswer": {"@type": "Answer", "text": "No, it is included in the base item. I connect the store and run a two-way sync test for products and stock."}}, {"@type": "Question", "name": "Which PHP version does Stocky need?", "acceptedAnswer": {"@type": "Answer", "text": "PHP 8.x with MySQL 8.x. I check extensions and Composer before installing, since older PHP versions break the Laravel and Vue build."}}, {"@type": "Question", "name": "Can I use it on shared hosting?", "acceptedAnswer": {"@type": "Answer", "text": "Small single-counter setups sometimes can. Multiple terminals, offline sync and a large catalogue are better on a VPS, and I will say so before you pay."}}, {"@type": "Question", "name": "Do I need the AI assistant?", "acceptedAnswer": {"@type": "Answer", "text": "No. It is optional and needs your own Claude API access. The POS, stock, invoicing and accounting modules work without it."}}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SHA REEQ Home","item":"https://mshariqq.github.io/"},{"@type":"ListItem","position":2,"name":"Codecanyon Support","item":"https://mshariqq.github.io/codecanyon.html"},{"@type":"ListItem","position":3,"name":"Stocky POS Developer"}]}
@@ -69,18 +73,91 @@ body{background:#0A0A0A;color:#fff;font-family:'Inter',sans-serif}
 <p class="section-eyebrow">// SHA REEQ · codecanyon support</p>
 <div style="display:flex;justify-content:center;margin:6px 0 16px;"><img src="images/dp.webp" alt="SHA REEQ - M Shariq Ahmed, Codecanyon installation expert" width="96" height="96" loading="lazy" style="width:96px;height:96px;border-radius:50%;object-fit:cover;border:3px solid rgba(255,255,255,.25);box-shadow:0 0 30px rgba(255,255,255,.18);display:block;"></div>
 <h1 class="font-display font-bold" style="font-size:2.6rem;line-height:1.2;margin-bottom:14px;">Stocky POS Developer,<br><span class="glow-text">Install &amp; Modify</span></h1>
-<p style="color:rgba(255,255,255,.55);font-size:1.02rem;max-width:620px;margin:0 auto 18px;line-height:1.7;">I'm <strong style="color:#fff;">SHA REEQ</strong> — Stocky POS + inventory + WooCommerce sync, thermal invoices, multi-store. <strong style="color:#fff;">$44 simple · $80 complex</strong> + 30 days support.</p>
-<div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:24px;"><span class="tech-pill">Inventory</span><span class="tech-pill">WooCommerce sync</span><span class="tech-pill">Thermal print</span></div>
+<p style="color:rgba(255,255,255,.55);font-size:1.02rem;max-width:640px;margin:0 auto 18px;line-height:1.7;">I'm <strong style="color:#fff;">SHA REEQ</strong> — Stocky POS installs (2,493 sales, Laravel + Vue): offline POS, barcode and scale, thermal printing, warehouses, accounting and WooCommerce sync. <strong style="color:#fff;">From $44</strong> + 30 days support.</p>
+<div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:24px;"><span class="tech-pill">Laravel + Vue</span><span class="tech-pill">Offline POS</span><span class="tech-pill">WooCommerce sync</span><span class="tech-pill">Thermal print</span></div>
 <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;"><a href="https://wa.me/917997807419?text=Hi%20SHA%20REEQ%2C%20Stocky%20(%2444)." target="_blank" rel="noopener" class="cta-btn cta-primary">Order — $44</a><a href="https://wa.me/917997807419?text=Hi%20SHA%20REEQ%2C%20Stocky%20complex%20(%2480)." target="_blank" rel="noopener" class="cta-btn cta-outline">Complex — $80</a></div>
 </div></section>
 <section style="padding:10px 0 50px;"><div class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-5">
 <div class="card" style="padding:26px;"><h2 style="font-size:1.2rem;font-weight:700;margin-bottom:12px;">Install</h2><div style="font-size:13.5px;color:rgba(255,255,255,.6);line-height:2;"><div><span class="check">✓</span>Laravel installer + DB + SSL</div><div><span class="check">✓</span>Woo API keys + sync + cron</div><div><span class="check">✓</span>Tax, printer, barcode</div></div></div>
 <div class="card" style="padding:26px;"><h2 style="font-size:1.2rem;font-weight:700;margin-bottom:12px;">Mods</h2><div style="font-size:13.5px;color:rgba(255,255,255,.6);line-height:2;"><div><span class="check">✓</span>Multi-store + roles</div><div><span class="check">✓</span>Custom invoice CSS</div><div><span class="check">✓</span>Reports + language</div></div></div>
 </div></section>
+<section style="padding:0 0 44px;"><div class="max-w-3xl mx-auto px-6">
+<h2 class="font-display font-bold" style="font-size:1.7rem;margin-bottom:14px;">What is Stocky POS?</h2>
+<p style="color:rgba(255,255,255,.6);font-size:14.5px;line-height:1.85;margin-bottom:12px;">Stocky POS is a Laravel and Vue.js retail system: point of sale, inventory, purchasing, invoicing, accounting, HRM, rentals, a CRM pipeline and a small online store. It runs as a single-page app, installs as a PWA and keeps selling when the internet drops.</p>
+<p style="color:rgba(255,255,255,.6);font-size:14.5px;line-height:1.85;margin-bottom:12px;">It suits real counters rather than only warehouses. The POS has five layouts including a touchscreen mode, supports barcode scanners, camera scanning and digital scales, prints thermal receipts and can take several payment methods in one sale.</p>
+<p style="color:rgba(255,255,255,.6);font-size:14.5px;line-height:1.85;margin-bottom:12px;">The base price is generous, including WooCommerce sync and the online store. Some extras, such as the Claude AI assistant and courier integrations, need your own third-party accounts, and charging end users requires the Extended licence.</p>
+<div class="card" style="padding:16px 18px;margin-top:8px;font-size:12.5px;line-height:1.8;color:rgba(255,255,255,.5);font-family:'Space Mono',monospace;">Official item: <a href="https://codecanyon.net/item/stockyultimate-inventory-management-system-with-pos/31445124" target="_blank" rel="noopener nofollow" style="color:#fff;text-decoration:underline;">Stocky POS on Codecanyon</a> &middot; $34 regular licence &middot; 2,493 sales &middot; by ui-lib &middot; last updated October 2026. Laravel API with a Vue.js single-page app. Offline POS and WooCommerce sync are included; AI and courier integrations need your own third-party accounts.<br>SHA REEQ is an independent service and is not affiliated with the author or Envato. You must own a valid licence to use this product.</div>
+</div></section>
+<section style="padding:0 0 44px;"><div class="max-w-4xl mx-auto px-6">
+<h2 class="font-display font-bold" style="font-size:1.7rem;margin-bottom:16px;">Key features of Stocky POS</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+<div class="card" style="padding:13px 16px;font-size:13.5px;color:rgba(255,255,255,.68);line-height:1.6;"><span class="check">✓</span> Five POS layouts including touchscreen and split screen</div>
+<div class="card" style="padding:13px 16px;font-size:13.5px;color:rgba(255,255,255,.68);line-height:1.6;"><span class="check">✓</span> Offline POS that keeps selling and syncs later</div>
+<div class="card" style="padding:13px 16px;font-size:13.5px;color:rgba(255,255,255,.68);line-height:1.6;"><span class="check">✓</span> Barcode scanner and camera scanning</div>
+<div class="card" style="padding:13px 16px;font-size:13.5px;color:rgba(255,255,255,.68);line-height:1.6;"><span class="check">✓</span> Digital scale integration for weighed goods</div>
+<div class="card" style="padding:13px 16px;font-size:13.5px;color:rgba(255,255,255,.68);line-height:1.6;"><span class="check">✓</span> Thermal receipt printing with ESC/POS</div>
+<div class="card" style="padding:13px 16px;font-size:13.5px;color:rgba(255,255,255,.68);line-height:1.6;"><span class="check">✓</span> Unlimited warehouses with stock transfers</div>
+<div class="card" style="padding:13px 16px;font-size:13.5px;color:rgba(255,255,255,.68);line-height:1.6;"><span class="check">✓</span> Variants, serial and IMEI tracking, expiry and batches</div>
+<div class="card" style="padding:13px 16px;font-size:13.5px;color:rgba(255,255,255,.68);line-height:1.6;"><span class="check">✓</span> Purchases, suppliers, sales and returns</div>
+<div class="card" style="padding:13px 16px;font-size:13.5px;color:rgba(255,255,255,.68);line-height:1.6;"><span class="check">✓</span> WooCommerce and Shopify synchronisation</div>
+<div class="card" style="padding:13px 16px;font-size:13.5px;color:rgba(255,255,255,.68);line-height:1.6;"><span class="check">✓</span> Built-in online store with themes</div>
+<div class="card" style="padding:13px 16px;font-size:13.5px;color:rgba(255,255,255,.68);line-height:1.6;"><span class="check">✓</span> Accounting, expenses and HRM payroll</div>
+<div class="card" style="padding:13px 16px;font-size:13.5px;color:rgba(255,255,255,.68);line-height:1.6;"><span class="check">✓</span> Kitchen display, rentals, CRM pipeline and AI assistant</div>
+</div></div></section>
+<section style="padding:0 0 44px;"><div class="max-w-3xl mx-auto px-6">
+<h2 class="font-display font-bold" style="font-size:1.7rem;margin-bottom:16px;">How a Stocky POS setup works</h2>
+<div class="card" style="padding:18px 20px;margin-bottom:10px;"><div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-family:'Space Mono',monospace;font-size:12px;color:rgba(255,255,255,.35);padding-top:3px;">01</span><div><div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;margin-bottom:5px;">Server and PHP</div><div style="font-size:13.5px;color:rgba(255,255,255,.55);line-height:1.8;">I confirm PHP 8.x, MySQL 8.x, Composer and a public document root, then size the server for the number of terminals. Offline POS helps, but the sync endpoint still needs to be reliable.</div></div></div></div>
+<div class="card" style="padding:18px 20px;margin-bottom:10px;"><div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-family:'Space Mono',monospace;font-size:12px;color:rgba(255,255,255,.35);padding-top:3px;">02</span><div><div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;margin-bottom:5px;">Install and migrate</div><div style="font-size:13.5px;color:rgba(255,255,255,.55);line-height:1.8;">Upload the code, install dependencies, set the environment file, run migrations and seeders, and create the storage link. Then I create the admin and the first warehouse.</div></div></div></div>
+<div class="card" style="padding:18px 20px;margin-bottom:10px;"><div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-family:'Space Mono',monospace;font-size:12px;color:rgba(255,255,255,.35);padding-top:3px;">03</span><div><div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;margin-bottom:5px;">Front-end build</div><div style="font-size:13.5px;color:rgba(255,255,255,.55);line-height:1.8;">Build the Vue assets for production and confirm the SPA loads without console errors. If you plan code changes, I set up a repeatable build rather than editing compiled files.</div></div></div></div>
+<div class="card" style="padding:18px 20px;margin-bottom:10px;"><div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-family:'Space Mono',monospace;font-size:12px;color:rgba(255,255,255,.35);padding-top:3px;">04</span><div><div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;margin-bottom:5px;">Products and stock</div><div style="font-size:13.5px;color:rgba(255,255,255,.55);line-height:1.8;">Import products by CSV, set variants, barcodes, cost and selling prices, opening stock per warehouse, tax rules and units. Then I test a stock transfer and a physical count.</div></div></div></div>
+<div class="card" style="padding:18px 20px;margin-bottom:10px;"><div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-family:'Space Mono',monospace;font-size:12px;color:rgba(255,255,255,.35);padding-top:3px;">05</span><div><div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;margin-bottom:5px;">POS hardware and payments</div><div style="font-size:13.5px;color:rgba(255,255,255,.55);line-height:1.8;">Connect the receipt printer, scanner and scale, configure cash, card and other payment methods, and print a real receipt. Hardware quirks are best solved on site or over a call.</div></div></div></div>
+<div class="card" style="padding:18px 20px;margin-bottom:10px;"><div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-family:'Space Mono',monospace;font-size:12px;color:rgba(255,255,255,.35);padding-top:3px;">06</span><div><div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;margin-bottom:5px;">WooCommerce and handover</div><div style="font-size:13.5px;color:rgba(255,255,255,.55);line-height:1.8;">If you sell online, connect the store, map products and run a two-way sync test. Then I train the counter team on opening and closing the till, refunds and offline recovery.</div></div></div></div>
+</div></section>
+<section style="padding:0 0 44px;"><div class="max-w-4xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-5">
+<div class="card" style="padding:24px;"><h2 class="font-display font-bold" style="font-size:1.25rem;margin-bottom:14px;">Why businesses choose it</h2><div style="font-size:13.5px;color:rgba(255,255,255,.6);line-height:2;">
+<div><span class="check">✓</span> Very complete retail feature set for a low licence price</div>
+<div><span class="check">✓</span> Offline POS is a genuine advantage on unreliable connections</div>
+<div><span class="check">✓</span> WooCommerce sync and an online store are included</div>
+<div><span class="check">✓</span> Unlimited warehouses with transfers and per-warehouse stock</div>
+<div><span class="check">✓</span> Active author with frequent releases and strong ratings</div>
+</div></div>
+<div class="card" style="padding:24px;"><h2 class="font-display font-bold" style="font-size:1.25rem;margin-bottom:14px;">Good to know before you buy</h2><div style="font-size:13.5px;color:rgba(255,255,255,.6);line-height:2;">
+<div><span class="check">✓</span> AI and courier integrations require your own third-party keys and accounts</div>
+<div><span class="check">✓</span> Charging end users requires the Extended licence</div>
+<div><span class="check">✓</span> Six months of support; extensions are paid</div>
+<div><span class="check">✓</span> Customising the Vue SPA needs front-end skills and a build step</div>
+<div><span class="check">✓</span> Hardware support depends on your specific printer, scanner and scale</div>
+</div></div></div></section>
+<section style="padding:0 0 44px;"><div class="max-w-3xl mx-auto px-6">
+<h2 class="font-display font-bold" style="font-size:1.7rem;margin-bottom:14px;">Server requirements and what to prepare</h2>
+<div class="card" style="padding:22px 24px;"><div style="font-size:13.5px;color:rgba(255,255,255,.62);line-height:2;">
+<div><span class="check">✓</span> PHP 8.x with the standard Laravel extensions and Composer</div>
+<div><span class="check">✓</span> MySQL 8.x with a dedicated database and user</div>
+<div><span class="check">✓</span> Node 18+ if you will rebuild the Vue assets</div>
+<div><span class="check">✓</span> Apache or Nginx with a public document root and HTTPS</div>
+<div><span class="check">✓</span> A compatible ESC/POS receipt printer; barcode scanner and scale are optional</div>
+<div><span class="check">✓</span> WooCommerce or Shopify credentials only if you enable sync</div>
+</div></div>
+<p style="color:rgba(255,255,255,.5);font-size:13.5px;line-height:1.85;margin-top:16px;">Tell me your host, PHP version and whether the servers are managed and I will confirm what needs changing before we start. If something on this list is missing, I fix it as part of the job rather than leaving you to guess.</p>
+</div></section>
+<section style="padding:0 0 50px;"><div class="max-w-4xl mx-auto px-6">
+<h2 class="font-display font-bold" style="font-size:1.7rem;margin-bottom:16px;">Who Stocky POS is for</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+<div class="card" style="padding:16px 18px;"><div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:14.5px;margin-bottom:6px;">Retail shops</div><div style="font-size:13px;color:rgba(255,255,255,.55);line-height:1.7;">A counter, stock control and receipts in one system.</div></div>
+<div class="card" style="padding:16px 18px;"><div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:14.5px;margin-bottom:6px;">Supermarkets and grocery</div><div style="font-size:13px;color:rgba(255,255,255,.55);line-height:1.7;">Weighed goods, barcodes and multiple warehouses.</div></div>
+<div class="card" style="padding:16px 18px;"><div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:14.5px;margin-bottom:6px;">Pharmacies</div><div style="font-size:13px;color:rgba(255,255,255,.55);line-height:1.7;">Batch and expiry tracking with purchase records.</div></div>
+<div class="card" style="padding:16px 18px;"><div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:14.5px;margin-bottom:6px;">Restaurants and cafes</div><div style="font-size:13px;color:rgba(255,255,255,.55);line-height:1.7;">Kitchen display plus counter sales.</div></div>
+<div class="card" style="padding:16px 18px;"><div style="font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:14.5px;margin-bottom:6px;">Wholesalers</div><div style="font-size:13px;color:rgba(255,255,255,.55);line-height:1.7;">Purchases, suppliers and stock transfers between sites.</div></div>
+</div></div></section>
 <section style="padding:0 0 60px;"><div class="max-w-3xl mx-auto px-6">
 <div class="text-center mb-7"><p class="section-eyebrow">// faq</p><h2 class="font-display font-bold text-2xl">FAQ</h2></div>
 <div><div class="faq-item open"><div class="faq-q" onclick="toggleF(this)">Stock duplicating after sync? <span>+</span></div><div class="faq-a" style="max-height:320px;padding-bottom:20px;">API mapping + cron overlap. I fix keys, mapping, schedules and clean duplicates.</div></div>
-<div class="faq-item"><div class="faq-q" onclick="toggleF(this)">Who is SHA REEQ? <span>+</span></div><div class="faq-a">SHA REEQ is M Shariq Ahmed (mshariqq) — Hyderabad, 10+ years.</div></div></div>
+<div class="faq-item"><div class="faq-q" onclick="toggleF(this)">Who is SHA REEQ? <span>+</span></div><div class="faq-a">SHA REEQ is M Shariq Ahmed (mshariqq) — Hyderabad, 10+ years.</div></div><div class="faq-item"><div class="faq-q" onclick="toggleF(this)">Does offline mode really work? <span>+</span></div><div class="faq-a">Yes, the POS keeps selling offline and syncs when the connection returns. I still test recovery carefully, because how you close the till offline affects reconciliation.</div></div>
+<div class="faq-item"><div class="faq-q" onclick="toggleF(this)">Is WooCommerce sync an add-on? <span>+</span></div><div class="faq-a">No, it is included in the base item. I connect the store and run a two-way sync test for products and stock.</div></div>
+<div class="faq-item"><div class="faq-q" onclick="toggleF(this)">Which PHP version does Stocky need? <span>+</span></div><div class="faq-a">PHP 8.x with MySQL 8.x. I check extensions and Composer before installing, since older PHP versions break the Laravel and Vue build.</div></div>
+<div class="faq-item"><div class="faq-q" onclick="toggleF(this)">Can I use it on shared hosting? <span>+</span></div><div class="faq-a">Small single-counter setups sometimes can. Multiple terminals, offline sync and a large catalogue are better on a VPS, and I will say so before you pay.</div></div>
+<div class="faq-item"><div class="faq-q" onclick="toggleF(this)">Do I need the AI assistant? <span>+</span></div><div class="faq-a">No. It is optional and needs your own Claude API access. The POS, stock, invoicing and accounting modules work without it.</div></div>
+</div>
 <div style="text-align:center;margin-top:26px;"><a href="https://wa.me/917997807419?text=Hi%20SHA%20REEQ%2C%20Stocky%20help." target="_blank" rel="noopener" class="cta-btn cta-primary">Chat with SHA REEQ</a></div>
 <p style="font-size:11px;color:rgba(255,255,255,.25);text-align:center;margin-top:22px;font-family:'Space Mono',monospace;">Independent service by SHA REEQ. Not affiliated with Envato.</p>
 </div></section>
